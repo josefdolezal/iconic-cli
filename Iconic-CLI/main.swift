@@ -6,7 +6,17 @@
 //  Copyright © 2017 Josef Dolezal. All rights reserved.
 //
 
-import Foundation
+import PathKit
+import Commander
 
-print("Hello, World!")
+let TEMPLATES_RELATIVE_PATH = "../templates"
 
+func templateOption(prefix: String) -> Option<String> {
+    return Option<String>("template", "default", flag: "t", description: "The name of the template to use for code generation (without the \"\(prefix)\" prefix nor extension).")
+}
+
+let templatePathOption = Option<String>("templatePath", "", flag: "p", description: "The path of the template to use for code generation. Overrides -t.")
+
+let outputOption = Option("output", OutputDestination.Console, flag: "o", description: "The path to the file to generate (Omit to generate to stdout)")
+
+print("Iconic")

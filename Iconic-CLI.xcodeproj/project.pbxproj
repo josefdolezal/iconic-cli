@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D2B6E8F91E50DA63006E3C52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B6E8F81E50DA63006E3C52 /* main.swift */; };
+		D2F153D61E510FE9005C9B6D /* ArgumentsUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F153D41E510FE2005C9B6D /* ArgumentsUtils.swift */; };
+		D2F153D71E510FEF005C9B6D /* icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F153D51E510FE2005C9B6D /* icons.swift */; };
+		D2F153DA1E51124A005C9B6D /* IconsFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F153D91E51124A005C9B6D /* IconsFileParser.swift */; };
+		D2F153DC1E511497005C9B6D /* IconsFileParser+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F153DB1E511497005C9B6D /* IconsFileParser+Context.swift */; };
+		D2F153DE1E511908005C9B6D /* StringFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F153DD1E511908005C9B6D /* StringFilters.swift */; };
 		F1D29D1E5F9326B8F6127B06 /* Pods_Iconic_CLI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5C295CC5040C8E84A71CB8 /* Pods_Iconic_CLI.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +35,7 @@
 		D2B6E8F51E50DA63006E3C52 /* Iconic-CLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Iconic-CLI"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B6E8F81E50DA63006E3C52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2F153A31E50DAC7005C9B6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D2F153A41E50DADF005C9B6D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D2F153A41E50DADF005C9B6D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D2F153AA1E50DE75005C9B6D /* IconDrawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDrawable.swift; sourceTree = "<group>"; };
 		D2F153AF1E50DE93005C9B6D /* 2.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.0; sourceTree = "<group>"; };
 		D2F153B01E50DE93005C9B6D /* dripicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dripicons.ttf; sourceTree = "<group>"; };
@@ -55,6 +60,11 @@
 		D2F153C81E50DF7D005C9B6D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		D2F153C91E50DF7D005C9B6D /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		D2F153CA1E50DF7D005C9B6D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		D2F153D41E510FE2005C9B6D /* ArgumentsUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsUtils.swift; sourceTree = "<group>"; };
+		D2F153D51E510FE2005C9B6D /* icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icons.swift; sourceTree = "<group>"; };
+		D2F153D91E51124A005C9B6D /* IconsFileParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsFileParser.swift; sourceTree = "<group>"; };
+		D2F153DB1E511497005C9B6D /* IconsFileParser+Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IconsFileParser+Context.swift"; sourceTree = "<group>"; };
+		D2F153DD1E511908005C9B6D /* StringFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringFilters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,8 @@
 				D2F153AD1E50DE93005C9B6D /* fonts */,
 				D2F153AC1E50DE93005C9B6D /* catalog */,
 				D2F153C61E50DE93005C9B6D /* templates */,
+				D2F153D81E51124A005C9B6D /* parsers */,
+				D2F153D31E510FE2005C9B6D /* cli */,
 				D2F153AA1E50DE75005C9B6D /* IconDrawable.swift */,
 			);
 			path = source;
@@ -199,6 +211,25 @@
 				D2F153C71E50DE93005C9B6D /* iconic-default.stencil */,
 			);
 			path = templates;
+			sourceTree = "<group>";
+		};
+		D2F153D31E510FE2005C9B6D /* cli */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153D41E510FE2005C9B6D /* ArgumentsUtils.swift */,
+				D2F153D51E510FE2005C9B6D /* icons.swift */,
+				D2F153DD1E511908005C9B6D /* StringFilters.swift */,
+			);
+			path = cli;
+			sourceTree = "<group>";
+		};
+		D2F153D81E51124A005C9B6D /* parsers */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153D91E51124A005C9B6D /* IconsFileParser.swift */,
+				D2F153DB1E511497005C9B6D /* IconsFileParser+Context.swift */,
+			);
+			path = parsers;
 			sourceTree = "<group>";
 		};
 		DDFD6DA737D905249678120E /* Pods */ = {
@@ -303,6 +334,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F153D71E510FEF005C9B6D /* icons.swift in Sources */,
+				D2F153DA1E51124A005C9B6D /* IconsFileParser.swift in Sources */,
+				D2F153DC1E511497005C9B6D /* IconsFileParser+Context.swift in Sources */,
+				D2F153D61E510FE9005C9B6D /* ArgumentsUtils.swift in Sources */,
+				D2F153DE1E511908005C9B6D /* StringFilters.swift in Sources */,
 				D2B6E8F91E50DA63006E3C52 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
