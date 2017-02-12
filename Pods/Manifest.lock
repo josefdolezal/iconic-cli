@@ -1,0 +1,24 @@
+PODS:
+  - PathKit (0.7.0)
+  - SwiftGenKit (0.0.1):
+    - PathKit (~> 0.7.0)
+
+DEPENDENCIES:
+  - SwiftGenKit (from `https://github.com/SwiftGen/SwiftGenKit.git`)
+
+EXTERNAL SOURCES:
+  SwiftGenKit:
+    :git: https://github.com/SwiftGen/SwiftGenKit.git
+
+CHECKOUT OPTIONS:
+  SwiftGenKit:
+    :commit: 70a2c37944a312bc85def7cb6b8700b8f18ae883
+    :git: https://github.com/SwiftGen/SwiftGenKit.git
+
+SPEC CHECKSUMS:
+  PathKit: f8260c3e41bf4d552f3603853e32a5b325a176d4
+  SwiftGenKit: b76d69d0695c266d2aaed1295d11bb1a56bb454c
+
+PODFILE CHECKSUM: 3fb921a69f753d2746d5c5fdaa3b3dae3fd1e7e5
+
+COCOAPODS: 1.2.0.beta.1
