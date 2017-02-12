@@ -31,6 +31,30 @@
 		D2B6E8F81E50DA63006E3C52 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2F153A31E50DAC7005C9B6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2F153A41E50DADF005C9B6D /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D2F153AA1E50DE75005C9B6D /* IconDrawable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconDrawable.swift; sourceTree = "<group>"; };
+		D2F153AF1E50DE93005C9B6D /* 2.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.0; sourceTree = "<group>"; };
+		D2F153B01E50DE93005C9B6D /* dripicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dripicons.ttf; sourceTree = "<group>"; };
+		D2F153B11E50DE93005C9B6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2F153B31E50DE93005C9B6D /* 4.7.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4.7.0; sourceTree = "<group>"; };
+		D2F153B41E50DE93005C9B6D /* FONT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FONT-LICENSE"; sourceTree = "<group>"; };
+		D2F153B51E50DE93005C9B6D /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		D2F153B61E50DE93005C9B6D /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		D2F153B71E50DE93005C9B6D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		D2F153B91E50DE93005C9B6D /* 1.0 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.0; sourceTree = "<group>"; };
+		D2F153BA1E50DE93005C9B6D /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		D2F153BB1E50DE93005C9B6D /* Linearicons-Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Linearicons-Free.ttf"; sourceTree = "<group>"; };
+		D2F153BD1E50DE93005C9B6D /* 2.2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2.2; sourceTree = "<group>"; };
+		D2F153BE1E50DE93005C9B6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D2F153BF1E50DE93005C9B6D /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		D2F153C11E50DE93005C9B6D /* 1.1.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = 1.1.1; sourceTree = "<group>"; };
+		D2F153C21E50DE93005C9B6D /* FONT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FONT-LICENSE"; sourceTree = "<group>"; };
+		D2F153C31E50DE93005C9B6D /* ICON-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ICON-LICENSE"; sourceTree = "<group>"; };
+		D2F153C41E50DE93005C9B6D /* open-iconic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.otf"; sourceTree = "<group>"; };
+		D2F153C51E50DE93005C9B6D /* open-iconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "open-iconic.ttf"; sourceTree = "<group>"; };
+		D2F153C71E50DE93005C9B6D /* iconic-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "iconic-default.stencil"; sourceTree = "<group>"; };
+		D2F153C81E50DF7D005C9B6D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		D2F153C91E50DF7D005C9B6D /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		D2F153CA1E50DF7D005C9B6D /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +100,105 @@
 		D2B6E8F71E50DA63006E3C52 /* Iconic-CLI */ = {
 			isa = PBXGroup;
 			children = (
+				D2F153A61E50DD1E005C9B6D /* source */,
 				D2B6E8F81E50DA63006E3C52 /* main.swift */,
 			);
 			path = "Iconic-CLI";
+			sourceTree = "<group>";
+		};
+		D2F153A61E50DD1E005C9B6D /* source */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153AD1E50DE93005C9B6D /* fonts */,
+				D2F153AC1E50DE93005C9B6D /* catalog */,
+				D2F153C61E50DE93005C9B6D /* templates */,
+				D2F153AA1E50DE75005C9B6D /* IconDrawable.swift */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		D2F153AC1E50DE93005C9B6D /* catalog */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153C81E50DF7D005C9B6D /* index.html */,
+				D2F153C91E50DF7D005C9B6D /* script.js */,
+				D2F153CA1E50DF7D005C9B6D /* style.css */,
+			);
+			path = catalog;
+			sourceTree = "<group>";
+		};
+		D2F153AD1E50DE93005C9B6D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153AE1E50DE93005C9B6D /* Dripicons */,
+				D2F153B21E50DE93005C9B6D /* FontAwesome */,
+				D2F153B81E50DE93005C9B6D /* Linearicons */,
+				D2F153BC1E50DE93005C9B6D /* MaterialIcons */,
+				D2F153C01E50DE93005C9B6D /* open-iconic */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D2F153AE1E50DE93005C9B6D /* Dripicons */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153AF1E50DE93005C9B6D /* 2.0 */,
+				D2F153B01E50DE93005C9B6D /* dripicons.ttf */,
+				D2F153B11E50DE93005C9B6D /* LICENSE */,
+			);
+			path = Dripicons;
+			sourceTree = "<group>";
+		};
+		D2F153B21E50DE93005C9B6D /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153B31E50DE93005C9B6D /* 4.7.0 */,
+				D2F153B41E50DE93005C9B6D /* FONT-LICENSE */,
+				D2F153B51E50DE93005C9B6D /* FontAwesome.otf */,
+				D2F153B61E50DE93005C9B6D /* FontAwesome.ttf */,
+				D2F153B71E50DE93005C9B6D /* License.txt */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		D2F153B81E50DE93005C9B6D /* Linearicons */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153B91E50DE93005C9B6D /* 1.0 */,
+				D2F153BA1E50DE93005C9B6D /* License.txt */,
+				D2F153BB1E50DE93005C9B6D /* Linearicons-Free.ttf */,
+			);
+			path = Linearicons;
+			sourceTree = "<group>";
+		};
+		D2F153BC1E50DE93005C9B6D /* MaterialIcons */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153BD1E50DE93005C9B6D /* 2.2 */,
+				D2F153BE1E50DE93005C9B6D /* LICENSE */,
+				D2F153BF1E50DE93005C9B6D /* MaterialIcons-Regular.ttf */,
+			);
+			path = MaterialIcons;
+			sourceTree = "<group>";
+		};
+		D2F153C01E50DE93005C9B6D /* open-iconic */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153C11E50DE93005C9B6D /* 1.1.1 */,
+				D2F153C21E50DE93005C9B6D /* FONT-LICENSE */,
+				D2F153C31E50DE93005C9B6D /* ICON-LICENSE */,
+				D2F153C41E50DE93005C9B6D /* open-iconic.otf */,
+				D2F153C51E50DE93005C9B6D /* open-iconic.ttf */,
+			);
+			path = "open-iconic";
+			sourceTree = "<group>";
+		};
+		D2F153C61E50DE93005C9B6D /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				D2F153C71E50DE93005C9B6D /* iconic-default.stencil */,
+			);
+			path = templates;
 			sourceTree = "<group>";
 		};
 		DDFD6DA737D905249678120E /* Pods */ = {
