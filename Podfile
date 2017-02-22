@@ -1,8 +1,13 @@
-target 'Iconic-CLI' do
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Iconic' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'SwiftGenKit', :git => 'https://github.com/SwiftGen/SwiftGenKit.git'
+  # Pods for Iconic
   pod 'Commander'
   pod 'Stencil'
+  pod 'PathKit'
 
 end
